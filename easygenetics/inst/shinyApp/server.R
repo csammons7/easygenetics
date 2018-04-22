@@ -7,12 +7,12 @@
 #    http://shiny.rstudio.com/
 #
 
-library(shiny)
+#library(shiny)
 
 
 server <- function(input, output) {
   
-  library(qtl) #if make into package, something we add in the documentation?
+ #library(qtl) #if make into package, something we add in the documentation?
   
   #First Tab
 observeEvent(input$go, {

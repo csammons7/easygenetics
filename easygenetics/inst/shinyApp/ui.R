@@ -7,8 +7,8 @@
 #    http://shiny.rstudio.com/
 #
 
-library(shiny)
-library(shinydashboard)
+#library(shiny)
+#library(shinydashboard)
 
 header<-dashboardHeader(title = HTML(paste(icon('flask'),'Easy Genetics')) , 
                         dropdownMenuOutput("messageMenu")

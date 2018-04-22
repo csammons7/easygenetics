@@ -1,10 +1,12 @@
 Package: easygenetics
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A Graphical User Interface (GUI) for Fundamentals of Genetic Data Analysis
 Version: 0.1.0
-Author: Who wrote it
+Author: Piyush Chaudhari and Candice Sammons
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Description: This package aims to create a front end genetic data analysis platform in a R programming environment using R Shiny. The goal is to create an easily accessible platform for non-statisticians and non-programmers to work on with minimal required coding.
 License: What license is it under?
 LazyData: TRUE
 RoxygenNote: 6.0.1
+Depends: qtl, shinydashboard
+Imports: shiny
